@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<header>
+<html lang="en">
+<head>
     <title> API Exercise</title>
     <meta charset="utf-8">
     <!-- Link the stylesheet so styles may be applied -->
     <link rel="stylesheet" href="styles.css">
-</header>
+</head>
 
 <!-- body of the page where all our elements are -->
 <body class="mainContent">
@@ -12,6 +13,13 @@
     <button id="callAPI">Call</button>
     <!-- Display the text here when it is recieved from the backend -->
     <h4 id="apiText"></h4>
-</body>
+<section id="name-section">
+    <h2>Enter your name</h2>
+    <input type="text" id="name-input">
+    <button id="submit-name-button">Submit</button>
+    <h4 id="name-output"></h4>
+</section>
 <!-- Most important part here, linking our logic so the backend can be called -->
 <script src="main.js"></script>
+</body>
+</html>
